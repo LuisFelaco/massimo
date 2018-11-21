@@ -1,10 +1,11 @@
-max= input("Inserisci un numero da tastiera: ")
-max=int(max)
-i=0
-while i<9:
-	r=input ("Inserisci un numero da tastiera: ")
-	r=int(r)
-	if max<r:
-		max=r
-		print (max)
-	i+=1
+max = 0
+i = 0
+a = input("Inserisci un numero: ")
+a = int(a)
+while i<5:
+   if a>max:
+      max=a
+   i+=1
+   a=input("Inserisci un altro numero:")
+   a= int (a)
+print ("Il max è: ",max)
