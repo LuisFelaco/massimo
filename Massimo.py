@@ -4,8 +4,8 @@ a = input("Inserisci un numero: ")
 a = int(a)
 while i<5:
    if a>max:
-      max=a
+      max = a
    i+=1
-   a=input("Inserisci un altro numero:")
-   a= int (a)
+   a = input("Inserisci un altro numero:")
+   a = int (a)
 print ("Il max è: ",max)
